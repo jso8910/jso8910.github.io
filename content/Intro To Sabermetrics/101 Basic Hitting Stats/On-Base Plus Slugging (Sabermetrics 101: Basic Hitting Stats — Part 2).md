@@ -3,6 +3,7 @@ title: "On-Base Plus Slugging (Sabermetrics 101: Basic Hitting Stats — Part 2)
 permalink: 2025-04-24-ops
 category: Intro To Sabermetrics/101 Basic Hitting Stats
 tags:
+  - sabermetrics
   - sabermetrics-101
 publish: true
 share: true

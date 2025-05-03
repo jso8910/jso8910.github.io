@@ -3,6 +3,7 @@ title: "What's so bad about batting average? (Sabermetrics 101: Basic Hitting St
 permalink: sabermetrics/101/2025-04-17-batting-average
 category: Intro To Sabermetrics/101 Basic Hitting Stats
 tags:
+  - sabermetrics
   - sabermetrics-101
 publish: true
 share: true
