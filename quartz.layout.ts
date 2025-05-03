@@ -38,39 +38,15 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer({
-      title: "Articles",
-      sortFn: (a, b) => {
-        if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
-          // Sort by date/alphabetical
-          console.log(a.dates, b.dates, a.frontmatter, b.frontmatter, a.displayName, b.displayName)
-          if (a.dates && b.dates) {
-            // sort descending
-            return getDate(cfg, b)!.getTime() - getDate(cfg, a)!.getTime()
-          } else if (a.dates && !b.dates) {
-            // prioritize files with dates
-            return -1
-          } else if (!a.dates && b.dates) {
-            return 1
-          }
-
-          // otherwise, sort lexographically by title
-          const f1Title = a.frontmatter?.title.toLowerCase() ?? ""
-          const f2Title = b.frontmatter?.title.toLowerCase() ?? ""
-          return f1Title.localeCompare(f2Title)
-          // return a.displayName.localeCompare(b.displayName, undefined, {
-          //   numeric: true,
-          //   sensitivity: "base",
-          // })
-        }
-
-        if (!a.isFolder && b.isFolder) {
-          return 1
-        } else {
-          return -1
-        }
-      },
-    }),
+Component.Breadcrumbs({
+  spacerSymbol: "❯", // symbol between crumbs
+  rootName: "Home", // name of first/root element
+  resolveFrontmatterTitle: true, // whether to resolve folder names through frontmatter titles
+  showCurrentPage: true, // whether to display the current page in the breadcrumbs
+})
+    // Component.Explorer({
+    //   title: "Articles",
+    // }),
   ],
   right: [
     Component.Graph(),
