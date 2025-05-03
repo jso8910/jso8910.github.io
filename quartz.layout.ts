@@ -41,12 +41,26 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Explorer({
       title: "Articles",
       sortFn: (a, b) => {
-        console.log(a)
         if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
-          return a.displayName.localeCompare(b.displayName, undefined, {
-            numeric: true,
-            sensitivity: "base",
-          })
+          // Sort by date/alphabetical
+          if (f1.dates && f2.dates) {
+            // sort descending
+            return getDate(cfg, f2)!.getTime() - getDate(cfg, f1)!.getTime()
+          } else if (f1.dates && !f2.dates) {
+            // prioritize files with dates
+            return -1
+          } else if (!f1.dates && f2.dates) {
+            return 1
+          }
+
+          // otherwise, sort lexographically by title
+          const f1Title = f1.frontmatter?.title.toLowerCase() ?? ""
+          const f2Title = f2.frontmatter?.title.toLowerCase() ?? ""
+          return f1Title.localeCompare(f2Title)
+          // return a.displayName.localeCompare(b.displayName, undefined, {
+          //   numeric: true,
+          //   sensitivity: "base",
+          // })
         }
 
         if (!a.isFolder && b.isFolder) {
