@@ -45,7 +45,7 @@ export const defaultContentPageLayout: PageLayout = {
           console.log(b.displayName.match(/— Part (\d*)\)$/))
           console.log(Number(b.displayName.match(/— Part (\d*)\)$/)?.[1]) - Number(a.displayName.match(/— Part (\d*)\)$/)?.[1]))
           if (/— Part \d*\)$/.test(a.displayName) && /a— Part \d\)$/.test(b.displayName)) {
-            return Number(b.displayName.match(/— Part (\d*)\)$/)?.[1]) - Number(a.displayName.match(/— Part (\d*)\)$/)?.[1])
+            return Number(a.displayName.match(/— Part (\d*)\)$/)?.[1]) - Number(b.displayName.match(/— Part (\d*)\)$/)?.[1])
           } else if (/— Part \d*\)$/.test(a.displayName)) {
             return -1
           } else if (/a— Part \d\)$/.test(b.displayName)) {
