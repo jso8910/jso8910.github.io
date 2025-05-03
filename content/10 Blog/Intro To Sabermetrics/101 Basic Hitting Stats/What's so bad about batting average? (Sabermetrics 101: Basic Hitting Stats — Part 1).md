@@ -1,12 +1,13 @@
 ---
 title: "What's so bad about batting average? (Sabermetrics 101: Basic Hitting Stats — Part 1)"
-permalink: sabermetrics/101/2025-17-04-batting-average
-category: Intro To Sabermetrics/101 Basic Hitting Stats
+permalink: 2025-04-17-batting-average
 tags:
   - sabermetrics-101
-publish: true
+draft: true
 share: true
+Subtitle: If it ain't broke...
 Section: "[[101 Basic Hitting Stats]]"
+layout: post
 publishDate: 2025-04-17
 modified: 
 custom-tags: "[[Baseball]]"
