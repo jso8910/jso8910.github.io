@@ -43,6 +43,7 @@ export const defaultContentPageLayout: PageLayout = {
       sortFn: (a, b) => {
         if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
           // Sort by date/alphabetical
+          console.log(a.dates, b.dates, a.frontmatter, b.frontmatter, a.displayName, b.displayName)
           if (a.dates && b.dates) {
             // sort descending
             return getDate(cfg, b)!.getTime() - getDate(cfg, a)!.getTime()
