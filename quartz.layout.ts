@@ -41,7 +41,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Explorer({
       title: "Articles",
       sortFn: (a, b) => {
-        console.log(a.data.published)
+        console.log(a)
         if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
           return a.displayName.localeCompare(b.displayName, undefined, {
             numeric: true,
