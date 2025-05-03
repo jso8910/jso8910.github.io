@@ -38,15 +38,30 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-Component.Breadcrumbs({
-  spacerSymbol: "❯", // symbol between crumbs
-  rootName: "Home", // name of first/root element
-  resolveFrontmatterTitle: true, // whether to resolve folder names through frontmatter titles
-  showCurrentPage: true, // whether to display the current page in the breadcrumbs
-})
-    // Component.Explorer({
-    //   title: "Articles",
-    // }),
+    Component.Explorer({
+      title: "Articles",
+      sortFn: (a, b) => {
+        if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
+          if (/— Part \d*)$/.test(a.displayName) && /a— Part \d)$/.test(b.displayName)) {
+            return Number(b.displayName.match(/— Part (\d*)$/)?.[1]) - Number(a.displayName.match(/— Part (\d*)$/)?.[1])
+          } else if (/— Part \d*)$/.test(a.displayName)) {
+            return -1
+          } else if (/a— Part \d)$/.test(b.displayName)) {
+            return 1
+          }
+          return a.displayName.localeCompare(b.displayName, undefined, {
+            numeric: true,
+            sensitivity: "base",
+          })
+        }
+
+        if (!a.isFolder && b.isFolder) {
+          return 1
+        } else {
+          return -1
+        }
+      },
+    }),
   ],
   right: [
     Component.Graph(),
