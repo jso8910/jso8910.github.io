@@ -4,7 +4,7 @@ permalink: sabermetrics/101/2025-04-17-batting-average
 category: Intro To Sabermetrics/101 Basic Hitting Stats
 tags:
   - sabermetrics-101
-publish: true
+publish: false
 share: true
 Section: "[[101 Basic Hitting Stats]]"
 publishDate: 2025-04-17
