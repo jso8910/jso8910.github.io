@@ -1,6 +1,6 @@
 ---
 title: "What's so bad about batting average? (Sabermetrics 101: Basic Hitting Stats — Part 1)"
-permalink: 2025-04-17-batting-average
+permalink: 
 tags:
   - sabermetrics-101
 draft: false
