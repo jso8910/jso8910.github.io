@@ -43,19 +43,19 @@ export const defaultContentPageLayout: PageLayout = {
       sortFn: (a, b) => {
         if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
           // Sort by date/alphabetical
-          if (f1.dates && f2.dates) {
+          if (a.dates && b.dates) {
             // sort descending
-            return getDate(cfg, f2)!.getTime() - getDate(cfg, f1)!.getTime()
-          } else if (f1.dates && !f2.dates) {
+            return getDate(cfg, b)!.getTime() - getDate(cfg, a)!.getTime()
+          } else if (a.dates && !b.dates) {
             // prioritize files with dates
             return -1
-          } else if (!f1.dates && f2.dates) {
+          } else if (!a.dates && b.dates) {
             return 1
           }
 
           // otherwise, sort lexographically by title
-          const f1Title = f1.frontmatter?.title.toLowerCase() ?? ""
-          const f2Title = f2.frontmatter?.title.toLowerCase() ?? ""
+          const f1Title = a.frontmatter?.title.toLowerCase() ?? ""
+          const f2Title = b.frontmatter?.title.toLowerCase() ?? ""
           return f1Title.localeCompare(f2Title)
           // return a.displayName.localeCompare(b.displayName, undefined, {
           //   numeric: true,
