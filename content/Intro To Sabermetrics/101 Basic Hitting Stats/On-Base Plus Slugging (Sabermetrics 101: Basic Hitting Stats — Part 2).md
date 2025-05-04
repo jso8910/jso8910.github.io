@@ -9,7 +9,7 @@ publish: true
 share: true
 Section: "[[101 Basic Hitting Stats]]"
 publishDate: 2025-04-24
-modified: 
+modified: 2025-04-24
 custom-tags: "[[Baseball]]"
 ---
 The next stat to explore is On-Base Plus Slugging (OPS), an extension of OBP. As the name suggests, it is simply the sum of two stats: on-base percentage and slugging percentage (SLG), the latter of which we haven’t encountered yet. Slugging percentage measures the number of total bases (TB) per AB a batter gets. A total base is the number of bases from hits by a batter; 1 for a single, 2 for a double, etc. It does not give any credit for walks, hit by pitches, or baserunning like stolen bases. To illustrate this stat, I’ll provide an example. If a player, in their first PA of a game, hits a triple, they now has a 3.000 SLG for the game (3 TB divided by 1 AB). If, in their second PA, they hits a single, their SLG is now 2.000. If, in the third PA, they walks, their SLG remains 2.000 because a walk doesn’t count as an at bat. Table 1 is a percentile chart of all qualified players for SLG from 2010 to 2024.
