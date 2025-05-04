@@ -9,7 +9,7 @@ publish: true
 share: true
 Section: "[[101 Basic Hitting Stats]]"
 publishDate: 2025-05-01
-modified: 
+modified: 2025-05-01
 custom-tags: "[[Baseball]]"
 ---
 [[001 What's so bad about batting average|OBP]] and [[002 On-Base Plus Slugging|OPS]] can be simply calculated by basic counting stats easily accessible online, or even from the box scores in the sports section of the newspaper. Just addition and division. In this post, I will start to explore the stuff that gets a little bit complicated: run expectancy. While not strictly a stat (it *can* exist standalone as a stat called RE24 which I'll talk about in [[201 Advanced Value Stats|Sabermetrics 201: Advanced Value Stats]]), it is a tool used to create other stats and the foundation of Sabermetrics' attempt to measure a hitter's impact on their team.
