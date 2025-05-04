@@ -42,13 +42,12 @@ export const defaultContentPageLayout: PageLayout = {
       title: "Articles",
       sortFn: (a, b) => {
         if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
-          console.log(b.displayName.match(/— Part (\d*)\)$/))
-          console.log(Number(b.displayName.match(/— Part (\d*)\)$/)?.[1]) - Number(a.displayName.match(/— Part (\d*)\)$/)?.[1]))
-          if (/— Part \d*\)$/.test(a.displayName) && /— Part \d\)$/.test(b.displayName)) {
-            return Number(a.displayName.match(/— Part (\d*)\)$/)?.[1]) - Number(b.displayName.match(/— Part (\d*)\)$/)?.[1])
-          } else if (/— Part \d*\)$/.test(a.displayName)) {
+          // If the displayName ends with "Part X)", sort by the number
+          if (/Part \d*\)$/.test(a.displayName) && /Part \d\)$/.test(b.displayName)) {
+            return Number(a.displayName.match(/Part (\d*)\)$/)?.[1]) - Number(b.displayName.match(/Part (\d*)\)$/)?.[1])
+          } else if (/Part \d*\)$/.test(a.displayName)) {
             return -1
-          } else if (/a— Part \d\)$/.test(b.displayName)) {
+          } else if (/Part \d\)$/.test(b.displayName)) {
             return 1
           }
           return a.displayName.localeCompare(b.displayName, undefined, {
