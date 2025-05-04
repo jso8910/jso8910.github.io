@@ -9,7 +9,7 @@ publish: true
 share: true
 Section: "[[101 Basic Hitting Stats]]"
 publishDate: 2025-04-17
-modified: 
+modified: 2025-04-17
 custom-tags: "[[Baseball]]"
 ---
 ##### If it ain't broke...
@@ -22,14 +22,14 @@ Part of understanding why batting average isn’t good is also understanding wha
 
 However, as you may notice, batting average doesn’t do this. All it gives a batter credit for is how many hits they get. The way we can fix this is by accounting for more outcomes. This is where on-base percentage comes in. On-base percentage is a stat which is calculated by counting the number of times a batter gets on base and then dividing it by the number of plate appearances (note: not ABs) the player has. The numerator (the top of the fraction and the number of times the player gets on base) is equal to H + BB + HBP (hits + walks + hit by pitches). This accounts for more outcomes than AVG, which is why we use it. However, that reason is quite vague and indefinite.
 
-How can I make this vague benefit more clear? Great question. By creating a graph! This one is going to be pretty simple. For reasons that are quite intuitive (but, will nonetheless be explained in [[201 Advanced Value Stats|Sabermetrics 201]]), we want stats to be able to predict the number of runs scored by a team. So, for this, I went back to 1990 and got all teams’ OBPs, batting averages, and runs scored to regress these values against each other. All code (and data downloaded from [Fangraphs](http://fangraphs.com)—get their membership, I seriously recommend it) used is on [my Github](https://github.com/jso8910/sabermetrics_tutorial_code).
+How can I make this vague benefit more clear? Great question. By creating a graph! This one is going to be pretty simple. For reasons that are quite intuitive (but, will nonetheless be explained in 201 Advanced Value Stats), we want stats to be able to predict the number of runs scored by a team. So, for this, I went back to 1990 and got all teams’ OBPs, batting averages, and runs scored to regress these values against each other. All code (and data downloaded from [Fangraphs](http://fangraphs.com)—get their membership, I seriously recommend it) used is on [my Github](https://github.com/jso8910/sabermetrics_tutorial_code).
 
 For this comparison, we will be using the coefficient of determination, otherwise known as r-squared. It essentially represents the proportion of response in the y-variable (the dependent variable) that can be explained by change in the x-variable (the independent variable). In this instance, the dependent variable will be runs scored, and the independent variable will be either AVG or OBP. R-squared therefore represents the proportion of the change in runs scored accounted for by batting average.
 
-![[avg_vs_runs.png|Average vs Runs Scored]]
+![[../../00 internal files/Assets/avg_vs_runs.png|Average vs Runs Scored]]
 **Figure 1. Team AVG vs Runs Scored, 1990-2024, excl. 1994, 2020**
 
-![[obp_vs_runs.png|OBP vs Runs Scored}]]
+![[../../00 internal files/Assets/obp_vs_runs.png|OBP vs Runs Scored}]]
 **Figure 2. Team OBP vs Runs Scored, 1990-2024, excl. 1994, 2020**
 
 As can be seen, the correlation between OBP and runs scored (excluding the two shortened seasons) is much stronger than that of AVG and runs scored, with an r-squared of 0.704 in Figure 1 vs an r-squared of 0.517 in Figure 2. This means that OBP is a stronger stat which more clearly correlates with runs scored. As discussed above, this is simply because it accounts for more outcomes, rather than just the singular outcome of “hit” or “no hit”. This is why we prefer to use stats like OBP rather than batting average: because OBP better correlates with runs scored.
