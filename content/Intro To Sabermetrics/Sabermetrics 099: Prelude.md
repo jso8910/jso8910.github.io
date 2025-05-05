@@ -8,7 +8,7 @@ publish: true
 share: true
 Section: 
 publishDate: 2025-04-17
-modified: 2025-04-17
+modified: 
 custom-tags: "[[Baseball]]"
 ---
 If you’re reading this, you probably like baseball (or you’re very bored and very lost). I like baseball too! So, I decided to make this series to share the way that I enjoy it: Sabermetrics. Even if you’re not a super devout fan, you’ve probably heard of that word. But many people don’t understand what it is. The purpose of this series is to inform people about Sabermetrics, the study of baseball in an analytical and statistical manner. I’ll assume everyone knows the basics (i.e. how you play baseball, the importance of runs, batting average, etc.) but everything beyond that, I will explain.
