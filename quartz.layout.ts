@@ -44,7 +44,6 @@ export const defaultContentPageLayout: PageLayout = {
         if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
           // If the displayName ends with "Part X)", sort by the number
           if (/Part \d*\)$/.test(a.displayName) && /Part \d\)$/.test(b.displayName)) {
-            // console.log(a.displayName.match(/Part (\d*)\)$/)?
             return Number(a.displayName.match(/Part (\d*)\)$/)?[1]) - Number(b.displayName.match(/Part (\d*)\)$/)?[1])
           } else if (/Part \d*\)$/.test(a.displayName)) {
             return -1
@@ -69,6 +68,12 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
+  ],
+  afterBody: [
+    Component.ConditionalRender({
+      component: Component.RecentNotes({ title: "Recent writing" }),
+      condition: (page) => page.fileData.slug === "index",
+})
   ],
 }
 
