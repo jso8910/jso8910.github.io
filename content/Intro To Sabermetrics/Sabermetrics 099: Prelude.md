@@ -4,6 +4,7 @@ permalink: sabermetrics/2025-04-17/prelude
 category: Intro To Sabermetrics/
 tags:
   - sabermetrics
+  - article
 publish: true
 share: true
 Section: 
