@@ -3,9 +3,9 @@ title: "Run Expectancy (Sabermetrics 101: Basic Hitting Stats — Part 3)"
 permalink: sabermetrics/101/2025-05-01-run-expectancy
 category: Intro To Sabermetrics/101 Basic Hitting Stats
 tags:
+  - article
   - sabermetrics
   - sabermetrics-101
-  - article
 publish: true
 share: true
 Section: "[[101 Basic Hitting Stats]]"
