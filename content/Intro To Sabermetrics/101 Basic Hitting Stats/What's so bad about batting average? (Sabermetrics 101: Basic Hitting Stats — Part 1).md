@@ -26,13 +26,13 @@ How can I make this vague benefit more clear? Great question. By creating a grap
 
 For this comparison, we will be using the coefficient of determination, otherwise known as r-squared. It essentially represents the proportion of response in the y-variable (the dependent variable) that can be explained by change in the x-variable (the independent variable). In this instance, the dependent variable will be runs scored, and the independent variable will be either AVG or OBP. R-squared therefore represents the proportion of the change in runs scored accounted for by batting average.
 
-![[../../00 internal files/Assets/avg_vs_runs.png|Average vs Runs Scored]]
-**Figure 1. Team AVG vs Runs Scored, 1990-2024, excl. 1994, 2020**
+![[../../00 internal files/Assets/avg_vs_runs.png|avg_vs_runs.png]]
+**Figure 1. Team AVG vs Runs Scored Per Team Game, 1990-2024, excl. 1994, 2020**
 
-![[../../00 internal files/Assets/obp_vs_runs.png|OBP vs Runs Scored}]]
+![[../../00 internal files/Assets/obp_vs_runs.png|obp_vs_runs.png]]
 **Figure 2. Team OBP vs Runs Scored, 1990-2024, excl. 1994, 2020**
 
-As can be seen, the correlation between OBP and runs scored (excluding the two shortened seasons) is much stronger than that of AVG and runs scored, with an r-squared of 0.704 in Figure 1 vs an r-squared of 0.517 in Figure 2. This means that OBP is a stronger stat which more clearly correlates with runs scored. As discussed above, this is simply because it accounts for more outcomes, rather than just the singular outcome of “hit” or “no hit”. This is why we prefer to use stats like OBP rather than batting average: because OBP better correlates with runs scored.
+As can be seen, the correlation between OBP and runs scored (excluding the two shortened seasons, which have lower sample sizes and thus are more likely to produce outliers) is much stronger than that of AVG and runs scored, with an r-squared of 0.739 in Figure 1 vs an r-squared of 0.543 in Figure 2. This means that OBP is a stronger stat which more clearly correlates with runs scored per game by a team. As discussed above, this is simply because it accounts for more outcomes, rather than just the singular outcome of “hit” or “no hit”. This is why we prefer to use stats like OBP rather than batting average: because OBP better correlates with runs scored.
 
 Table 1 is a table of OBP percentiles among players over a qualified season (a qualified season is a season in which a hitter has 3.1 plate appearances per scheduled game for their league—for a 162 game season a minimum of 503 PAs). It uses data from 2010 to 2024 to give you an idea of what a “good” or “bad” OBP is. Percentiles divide a dataset into equal groups. The 50th percentile is the average player, the 100th percentile is the best player, and the 0th percentile is the worst player. If a player were, for example, in the 90th percentile, that would mean that about 10% of players are better than them and 90% of players are worse than them.
 
