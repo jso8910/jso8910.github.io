@@ -73,7 +73,21 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ConditionalRender({
       component: Component.RecentNotes({ title: "Recent writing" }),
       condition: (page) => page.fileData.slug === "index",
-})
+    }),
+    Component.Comments({
+      provider: 'giscus',
+      options: {
+        // from data-repo
+        repo: 'jso8910/jso8910.github.io',
+        // from data-repo-id
+        repoId: 'R_kgDOOj0Gtw',
+        // from data-category
+        category: 'Announcements',
+        // from data-category-id
+        categoryId: 'DIC_kwDOOj0Gt84Cp6SC',
+        inputPosition: 'top',
+      }
+    }),
   ],
 }
 
