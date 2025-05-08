@@ -3,9 +3,9 @@ title: "Weighted On Base Average and Linear Weights (Sabermetrics 101: Basic Hit
 permalink: sabermetrics/101/2025-05-08-woba
 category: Intro To Sabermetrics/101 Basic Hitting Stats
 tags:
+  - article
   - sabermetrics
   - sabermetrics-101
-  - article
 publish: true
 share: true
 Section: "[[101 Basic Hitting Stats]]"
