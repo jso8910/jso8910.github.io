@@ -71,7 +71,11 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   afterBody: [
     Component.ConditionalRender({
-      component: Component.RecentNotes({ title: "Recent writing" }),
+      component: Component.RecentNotes({
+        title: "Recent posts",
+        linkToMore: "tags/article",
+        limit: 10,
+      }),
       condition: (page) => page.fileData.slug === "index",
     }),
     Component.Comments({
