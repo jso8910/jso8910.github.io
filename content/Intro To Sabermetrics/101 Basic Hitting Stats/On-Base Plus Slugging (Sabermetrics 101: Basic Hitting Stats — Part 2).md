@@ -5,6 +5,7 @@ category: Intro To Sabermetrics/101 Basic Hitting Stats
 tags:
   - sabermetrics
   - sabermetrics-101
+  - article
 publish: true
 share: true
 Section: "[[101 Basic Hitting Stats]]"
