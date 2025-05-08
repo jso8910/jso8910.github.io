@@ -14,7 +14,7 @@ custom-tags: "[[Baseball]]"
 ---
 ##### If it ain't broke...
 
-The first reaction many baseball fans have to ==sabermetrics== goes somewhere along these lines: why complicate things when batting average works just fine? And this is a valid question, why exactly do we need to go beyond batting average in order to figure out how effective hitters are? This first part of the series seeks to explain why exactly sabermetrics are necessary, exploring the inadequacies of batting average and beginning to introduce what we can replace it with.
+The first reaction many baseball fans have to sabermetrics goes somewhere along these lines: why complicate things when batting average works just fine? And this is a valid question, why exactly do we need to go beyond batting average in order to figure out how effective hitters are? This first part of the series seeks to explain why exactly sabermetrics are necessary, exploring the inadequacies of batting average and beginning to introduce what we can replace it with.
 
 For those who don't know, batting average is a measure of how often a player gets a hit. It is the number of hits a player gets divided by the number of at bats (ABs) that they have taken. The number of ABs a player has is equal to the total number of times they go to the plate and achieve an outcome other than a walk, hit by pitch, or a sacrifice hit. A .250 batting average is roughly average, .300 is (these days) elite, and if you have a .200 batting average, your days in the league are numbered. This stat's simple nature has made it one of the most ubiquitous stats from [its ideation in 1872](https://onlinegrad.syracuse.edu/blog/sabermetrics-baseball-analytics-the-science-of-winning-accessible/) until modern times.
 
