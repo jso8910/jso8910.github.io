@@ -44,7 +44,7 @@ export const defaultContentPageLayout: PageLayout = {
         if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
           // If the displayName ends with "Part X)", sort by the number
           if (/Part \d*\)$/.test(a.displayName) && /Part \d\)$/.test(b.displayName)) {
-            return Number(a.displayName.match(/Part (\d*)\)$/)?[1]) - Number(b.displayName.match(/Part (\d*)\)$/)?[1])
+            return Number(a.displayName.match(/Part (\d*)\)$/)[1]) - Number(b.displayName.match(/Part (\d*)\)$/)[1])
           } else if (/Part \d*\)$/.test(a.displayName)) {
             return -1
           } else if (/Part \d\)$/.test(b.displayName)) {
