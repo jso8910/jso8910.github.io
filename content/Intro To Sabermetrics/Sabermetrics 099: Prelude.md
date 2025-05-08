@@ -3,8 +3,8 @@ title: "Sabermetrics 099: Prelude"
 permalink: sabermetrics/2025-04-17/prelude
 category: Intro To Sabermetrics/
 tags:
-  - sabermetrics
   - article
+  - sabermetrics
 publish: true
 share: true
 Section: 
