@@ -38,7 +38,7 @@ To put it in terms of a (crude) formula, $R^2 = \dfrac{\text{signal}}{\text{sign
 > $$
 > \text{SSR} = \sum_i \left(y_i-\hat{y}_i\right)^2
 > $$
-> Where $\hat{y}_i$ represents the predicted y-value by our regression model for observation $i$ and $y_i$ is the actual value of y for that observation i. SSR is also known as the sum of squared errors. Essentially, this formula just calculates the error in each of our predictions from the regression and squares it (to avoid negative values, mainly).
+> Where $\hat{y}_i$ represents the predicted y-value by our regression model for observation $i$ and $y_i$ is the actual value of y for that observation i. SSR is also known as the sum of squared errors. Essentially, this formula just calculates the error in each of our predictions from the regression and squares it (to avoid negative values, mainly). In the baseball-specific context, this is all of the important variables which are *not* being included in the regression.
 > 
 > Next, SST, the total sum of squares.
 > $$
