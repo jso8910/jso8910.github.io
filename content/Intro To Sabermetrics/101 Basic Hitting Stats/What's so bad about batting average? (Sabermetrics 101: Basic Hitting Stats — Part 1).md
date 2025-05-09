@@ -27,6 +27,8 @@ How can I make this vague benefit more clear? Great question. By creating a grap
 
 For this comparison, we will be using the coefficient of determination, otherwise known as r-squared. It essentially represents the proportion of response in the y-variable (the dependent variable) that can be explained by change in the x-variable (the independent variable). In this instance, the dependent variable will be runs scored, and the independent variable will be either AVG or OBP. R-squared therefore represents the proportion of the change in runs scored accounted for by batting average.
 
+To put it in terms of a (crude) formula, $r^2 = \dfrac{\text{signal}}{\text{signal}+\text{noise}}$. The "signal" is the impact which the x-variable (independent) has on the y-variable (dependent), while the "noise" is the impact of other things that aren't being measured on the y-variable (in the case of baseball, random variation, ignored outcomes such as walks for AVG, and other factors).
+
 ![[../../00 internal files/Assets/avg_vs_runs.png|avg_vs_runs.png]]
 **Figure 1. Team AVG vs Runs Scored Per Team Game, 1990-2024, excl. 1994, 2020**
 
