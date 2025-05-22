@@ -11,6 +11,7 @@ share: true
 Section: "[[101 Basic Hitting Stats]]"
 publishDate: 2025-05-08
 modified: 2025-05-08
+startedDate: "[[2025-05-05]]"
 custom-tags: "[[Baseball]]"
 ---
 Our next step on our Sabermetric journey takes us through wOBA. It is simultaneously one of the most and least well known advanced stats in the sport of baseball. Most people who are big fans of baseball have probably at least *heard of* [[Weighted On Base Average and Linear Weights (Sabermetrics 101: Basic Hitting Stats — Part 4)|wOBA]] or its child stat, wRC+, but what actually is it? I'm not going to waste any time here, I'll just show you its formula for the year 2025:
@@ -86,7 +87,7 @@ Next, we can move onto our percentiles table.
 | 70th | 0.352 |
 | 80th | 0.364 |
 | 90th | 0.382 |
-**Table 1. Percentiles of OBP among qualified players, 2010–2024**
+**Table 1. Percentiles of wOBA among qualified players, 2010–2024**
 
 You'll notice Table 1 looks very very similar to the OBP table. Naturally the 50th percentile is the same on both charts, and all the percentiles match up almost perfectly. I'm actually not entirely sure why this is. The only thing that's been adjusted in calculation of wOBA is its mean, not its standard deviation. That is an interesting question for one to explore (and let me know!). The fun thing is, I don't actually need to go through Fangraphs to let everyone know the *actual* league average for this stat, because you can just go back to [[./What's so bad about batting average? (Sabermetrics 101: Basic Hitting Stats — Part 1)|the article on OBP]] to see what the league average OBP generally is, and that is by definition the same as the league average wOBA!
 
