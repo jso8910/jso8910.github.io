@@ -72,9 +72,10 @@ wOBA increasing by 1 percentage point relative to league average (a change in n 
 $$
 \dfrac{\text{lgwOBA}}{\text{wOBAscale}\times\text{R/PA}}
 $$In 2024:
-	$\text{wOBAscale} = 1.242$
-	$\text{R/PA} = 0.117$
-	$\text{lgwOBA} = 0.310$
+$\text{wOBAscale} = 1.242$
+$\text{R/PA} = 0.117$
+$\text{lgwOBA} = 0.310$
+
 So, the difference for each percent above average is 2.13 points of wRC+ per percentage point change in wOBA/lgwOBA.
 
 For 2024, we have this formula for wRC+:
