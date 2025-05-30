@@ -71,10 +71,11 @@ This formula essentially means that wRC+ changes by that amount for every increa
 wOBA increasing by 1 percentage point relative to league average (a change in n of 0.01) will be 0.01 times the gradient:
 $$
 \dfrac{\text{lgwOBA}}{\text{wOBAscale}\times\text{R/PA}}
-$$In 2024:
-$\text{wOBAscale} = 1.242$
-$\text{R/PA} = 0.117$
-$\text{lgwOBA} = 0.310$
+$$
+In 2024:
+> $\text{wOBAscale} = 1.242$
+> $\text{R/PA} = 0.117$
+> $\text{lgwOBA} = 0.310$
 
 So, the difference for each percent above average is 2.13 points of wRC+ per percentage point change in wOBA/lgwOBA.
 
@@ -104,7 +105,7 @@ So your observation was correct, but it is in no way a "similar logic" to OPS+. 
 No. Not really. But also kinda. Depends how you define it. Before going into this section, just wanted to let y'all know that this section (and the info box above) is something new I wrote for this article. So much for being low effort.
 
 Anyways, let's change what we're looking at. The formula above is really quite confusing and a weird approximation of wRC+. So let's use real wRC+ and compare it to the value $b$ above (which I will rename from now on to be R/PA+, because it is essentially just a stat like wRC+ but for run scoring, where 1 is league average run scoring, 1.1 is 10% above average, 0.9 is 10% below average). Also, for this, I'm switching back to using Fangraphs' wRC+.
-![[rpa+_vs_wrc+ 1.png|rpa+_vs_wrc+ 1.png]]
+![[../../00 internal files/Assets/rpa+_vs_wrc+ 1.png|rpa+_vs_wrc+ 1.png]]
 **Figure 1. wRC+/100 - 1 vs R/PA+ - 1, 2010-2024**
 
 In Figure 1, I subtracted 1 from each value to normalize them so 0 is the mean. It shows that there is a very strong relationship between wRC+ and the percent above average of the rate a team scores runs at. Great! But, I want to draw your attention to something: the gradient of the graph. You might expect, given the premise of wRC+, that one point of wRC+ would correspond with one percent above average of run scoring. But the gradient of 0.738 actually shows that, for each point of wRC+, run scoring only increases by 0.738 percentage points above average. This is a very interesting observation, and I have no idea why this happens. wRC+ still correlates well with run scoring, but it doesn't correlate in the way I'd expect it to. If I figure out why this happens, I will add the explanation to this article.
