@@ -51,54 +51,54 @@ Because Team C is exactly a league-average team—that is, they possess exactly 
 
 The proxy series described in this thought experiment provides an unbiased method for assigning victory to one of two teams without requiring a head-to-head matchup. As it turns out, the proxy-series formulation also lends itself directly to the derivation of a functional expression for each team’s probability of victory in such an event, given their full-season winning percentages. Let us denote the winning percentages of Team A and Team B by WP <sub>A</sub> and WP <sub>B</sub>, respectively. Note that WP <sub>A</sub> and WP <sub>B</sub> represent winning percentages achieved in the context of a full league playing a balanced schedule. Because the proxy Team C achieved a winning percentage of exactly.500 playing the same balanced schedule in the same league, it stands to reason that Team A and Team B should expect to win individual games against Team C with probabilities WP <sub>A</sub> and WP <sub>B</sub>, respectively. If individual games of the proxy series are assumed independent, then the probabilities of each of the three possible outcomes of the two-game series can be expressed directly. In particular, the probability of Team A achieving victory (outcome 1) in a single two-game proxy series is
 
-![[/content/00 internal files/Assets/3641b53e50929e8fa9a585dedf8843d7_MD5.gif|3641b53e50929e8fa9a585dedf8843d7_MD5]]  
+![[../../00 internal files/Assets/3641b53e50929e8fa9a585dedf8843d7_MD5.gif|3641b53e50929e8fa9a585dedf8843d7_MD5]]  
   
 
 (The “1” in the subscript indicates that this outcome was achieved after a single two-game proxy series with no rematch; this notation will be useful in the derivation that follows.) Similarly, we can write the probability of Team B achieving victory (outcome 2) after a single two-game proxy series as
 
-![[/content/00 internal files/Assets/048dfc2e4a6361f12b8894d9db2f219e_MD5.gif|048dfc2e4a6361f12b8894d9db2f219e_MD5]]  
+![[../../00 internal files/Assets/048dfc2e4a6361f12b8894d9db2f219e_MD5.gif|048dfc2e4a6361f12b8894d9db2f219e_MD5]]  
   
 
 Finally, the probability of no decisive victory (outcome 3) after a single two-game proxy series is
 
-![[/content/00 internal files/Assets/cfa919a33e7771acd5edde13598844be_MD5.gif|cfa919a33e7771acd5edde13598844be_MD5]]  
+![[../../00 internal files/Assets/cfa919a33e7771acd5edde13598844be_MD5.gif|cfa919a33e7771acd5edde13598844be_MD5]]  
   
 
 The probabilities of the three possible outcomes can be depicted graphically on the unit square, as in Figure 1. This square is divided into four regions by one vertical line (corresponding to the winning percentage of Team A) and one horizontal line (corresponding to the winning percentage of Team B). The areas of the resulting regions are equal to specific probabilities expressed in the above set of equations. In particular, the two white regions have areas equal to the probabilities of the decisive outcomes 1 and 2 (that is, P <sub>A</sub>,<sub>1</sub> and P <sub>B</sub><sub>,1</sub>), while the union of the two shaded regions has an area equal to the probability of the nondecisive outcome 3 (that is, P <sub>0,1</sub>).
 
-[![[/content/00 internal files/Assets/1909b8ed86f6b4c9aaaa905ff0fcf971_MD5.jpg|1909b8ed86f6b4c9aaaa905ff0fcf971_MD5]]](https://sabr.box.com/shared/static/6a0z7kqx001nhet8go8s.jpg)  
-**Figure 1** (click to enlarge) ![[/content/00 internal files/Assets/9a365ffc87f948fa430c4e5ed506b636_MD5.gif|9a365ffc87f948fa430c4e5ed506b636_MD5]]  
+[![[../../00 internal files/Assets/1909b8ed86f6b4c9aaaa905ff0fcf971_MD5.jpg|1909b8ed86f6b4c9aaaa905ff0fcf971_MD5]]](https://sabr.box.com/shared/static/6a0z7kqx001nhet8go8s.jpg)  
+**Figure 1** (click to enlarge) ![[../../00 internal files/Assets/9a365ffc87f948fa430c4e5ed506b636_MD5.gif|9a365ffc87f948fa430c4e5ed506b636_MD5]]  
   
 
 Because a single two-game proxy series may not be decisive (outcome 3), a recursive sequence of two-game proxy series might be required to declare a victor. The probability of Team A achieving victory in a sequence of n or fewer proxy series is
 
-![[/content/00 internal files/Assets/af659731602c455dd920c0576a394fd4_MD5.gif|af659731602c455dd920c0576a394fd4_MD5]]  
+![[../../00 internal files/Assets/af659731602c455dd920c0576a394fd4_MD5.gif|af659731602c455dd920c0576a394fd4_MD5]]  
   
 
 Likewise, the probability of a victory for Team B after n or fewer two-game proxy-series recursions is
 
-![[/content/00 internal files/Assets/e186f069e3b8c4442b2e967c90fbdd45_MD5.gif|e186f069e3b8c4442b2e967c90fbdd45_MD5]]
+![[../../00 internal files/Assets/e186f069e3b8c4442b2e967c90fbdd45_MD5.gif|e186f069e3b8c4442b2e967c90fbdd45_MD5]]
 
 Finally, the probability of no decisive outcome after a sequence of n recursive two-game proxy series is
 
-![[/content/00 internal files/Assets/604a8ac5cac049851c4febc5098f0047_MD5.gif|604a8ac5cac049851c4febc5098f0047_MD5]]  
+![[../../00 internal files/Assets/604a8ac5cac049851c4febc5098f0047_MD5.gif|604a8ac5cac049851c4febc5098f0047_MD5]]  
   
 
 (It can be verified that P <sub>A,n</sub> + P <sub>B,n</sub> + P <sub>0,n</sub> = 1 for any n.)
 
 As n increases, the probability P <sub>0</sub><sub>,n</sub> of having reached no decisive outcome decreases toward zero and the probabilities P <sub>A,n</sub> and P <sub>B,n</sub> of having reached each decisive outcome increase toward a sum of one. In the limiting case—that is, as n tends to infinity—a decisive result will be achieved with probability one. Summing the resulting arithmetic series, we find that the probability of eventual victory for team A is2
 
-![[/content/00 internal files/Assets/9cd84d9a414cbafa2d84454e5d169385_MD5.gif|9cd84d9a414cbafa2d84454e5d169385_MD5]] ![[/content/00 internal files/Assets/a3cef1b57e19290ee21ddb0097fac89f_MD5.jpg|a3cef1b57e19290ee21ddb0097fac89f_MD5]]  
+![[../../00 internal files/Assets/9cd84d9a414cbafa2d84454e5d169385_MD5.gif|9cd84d9a414cbafa2d84454e5d169385_MD5]] ![[../../00 internal files/Assets/a3cef1b57e19290ee21ddb0097fac89f_MD5.jpg|a3cef1b57e19290ee21ddb0097fac89f_MD5]]  
   
 
 and the probability of eventual victory for Team B is
 
-![[/content/00 internal files/Assets/861709cd9608a7a3f3e0145f7f3df925_MD5.gif|861709cd9608a7a3f3e0145f7f3df925_MD5]] ![[/content/00 internal files/Assets/62135ef75a4de4ba581c6f6493aeee18_MD5.jpg|62135ef75a4de4ba581c6f6493aeee18_MD5]]  
+![[../../00 internal files/Assets/861709cd9608a7a3f3e0145f7f3df925_MD5.gif|861709cd9608a7a3f3e0145f7f3df925_MD5]] ![[../../00 internal files/Assets/62135ef75a4de4ba581c6f6493aeee18_MD5.jpg|62135ef75a4de4ba581c6f6493aeee18_MD5]]  
   
 
 Note that P <sub>A</sub> is simply the ratio of P <sub>A,1</sub> to the sum P <sub>A,1</sub> + P <sub>B,1</sub>, and that P <sub>B</sub> is likewise the ratio of P <sub>B,1</sub> to the same sum. In other words, the probability of each team’s victory is simply the ratio of its probability of victory in a single two-game proxy series to the probability of a decisive result in a single two-game proxy series. Because the equations for P <sub>A</sub> and P <sub>B</sub> are complementary, we will henceforth represent them with a single function of the two variables WP <sub>A</sub> and WP <sub>B</sub>:
 
-![[/content/00 internal files/Assets/4a6c0b440a164bfcb45326bade102b56_MD5.jpg|4a6c0b440a164bfcb45326bade102b56_MD5]] ![[/content/00 internal files/Assets/acc09cf96218169f615639feb76b2b7e_MD5.gif|acc09cf96218169f615639feb76b2b7e_MD5]]  
+![[../../00 internal files/Assets/4a6c0b440a164bfcb45326bade102b56_MD5.jpg|4a6c0b440a164bfcb45326bade102b56_MD5]] ![[../../00 internal files/Assets/acc09cf96218169f615639feb76b2b7e_MD5.gif|acc09cf96218169f615639feb76b2b7e_MD5]]  
   
 
 Here, P(WP <sub>A</sub>,WP <sub>B</sub>) represents the probability of a victory by Team A over Team B, given that these teams have inherent qualities of WP <sub>A</sub> and WP <sub>B</sub>, respectively.3 Note that P <sub>A</sub> = P(WP <sub>A</sub>,WP <sub>B</sub>) and P <sub>B</sub> = P(WP <sub>B</sub>,WP <sub>A</sub>).
@@ -121,7 +121,7 @@ Indeed, these precepts are so basic and self-evident that they might actually be
 
 Table 1 presents the predicted probabilities of victory in head-to-head matchups between teams of different qualities. Each cell in the table represents the predicted probability of victory for a team with quality indicated by the heading of the corresponding row, when facing a team with quality indicated by the heading of the corresponding column.4 For instance, the predicted probability of victory for a.600 team facing a.400 opponent is.692. When the same.600 team faces a.500 opponent—that is, a league-average opponent—its predicted win probability is.600. Paired against a.600 opponent (and thus perfectly evenly matched), the team’s probability of victory is exactly.500. On the rare occasion when the team faces a.700 opponent, its win probability decreases to.391.
 
-[![[/content/00 internal files/Assets/a27131a867f0e630a0b15d6aaa865f2a_MD5.jpg|a27131a867f0e630a0b15d6aaa865f2a_MD5]]](https://sabr.box.com/shared/static/qqivrzq6tkam474v0en2.jpg)  
+[![[../../00 internal files/Assets/a27131a867f0e630a0b15d6aaa865f2a_MD5.jpg|a27131a867f0e630a0b15d6aaa865f2a_MD5]]](https://sabr.box.com/shared/static/qqivrzq6tkam474v0en2.jpg)  
 **Table 1** (click to enlarge)
 
 *Scooped by Bill James*
@@ -134,8 +134,8 @@ If the win-probability function P looks familiar, it may be because it first app
 
 James christened his technique the “log5” method. Although apparently originally cast in a different (and more complicated) format, the win-probability relationship was reworked by James and colleague Dallas Adams into the same format constructively derived here. James used this formula repeatedly in later Baseball Abstracts; it has since been used by others in a variety of sabermetric contexts. James and Adams apparently performed a limited behind-the-scenes empirical validation of the log5 method, stating that the selected empirical data “matches very closely” (emphasis in original) with the win-probability function. Unfortunately, details were not provided. In the following section, we provide a detailed quantitative empirical validation of the win-probability function, demonstrating that its predictions are in excellent agreement with historical results.
 
-[![[/content/00 internal files/Assets/bae59124298eead41670cbb9ce45ca27_MD5.jpg|bae59124298eead41670cbb9ce45ca27_MD5]]](https://sabr.box.com/shared/static/l4d4n9od0v8gyuy2rld2.jpg)  
-**Figure 2** (click to enlarge) ![[/content/00 internal files/Assets/b6542fcbf7d8c9873aee9459e0a650db_MD5.gif|b6542fcbf7d8c9873aee9459e0a650db_MD5]]
+[![[../../00 internal files/Assets/bae59124298eead41670cbb9ce45ca27_MD5.jpg|bae59124298eead41670cbb9ce45ca27_MD5]]](https://sabr.box.com/shared/static/l4d4n9od0v8gyuy2rld2.jpg)  
+**Figure 2** (click to enlarge) ![[../../00 internal files/Assets/b6542fcbf7d8c9873aee9459e0a650db_MD5.gif|b6542fcbf7d8c9873aee9459e0a650db_MD5]]
 
 **Comparison with Empirical Results**
 
@@ -143,19 +143,19 @@ From the inception of the National Association in 1871 through the conclusion of
 
 We will evaluate the accuracy of the win-probability function by comparing its theoretical predictions to empirical head-to-head winning percentages observed between teams of various qualities. In all comparisons, each team’s full-season winning percentage will be used as the measure of its inherent quality, and not its season-to-date winning percentage; the former provides a much better estimate of the true quality of a team, and the latter is far more variable (especially early in a season). In order to facilitate the analysis, interpretation, and presentation of the results, we will group teams into winning-percentage bins with extents of.020. For instance, teams with winning percentages between.490 and.510 will be grouped into a single bin centered at.500 for analysis; similarly, teams with winning percentages between.510 and.530 will be grouped into another bin centered at.520.7 Figure 3 depicts a histogram of team winning percentages throughout major league history, separated into these bins.8
 
-[![[/content/00 internal files/Assets/3521a1594a96b5c0f71bd505509d933a_MD5.jpg|3521a1594a96b5c0f71bd505509d933a_MD5]]](https://sabr.box.com/shared/static/5hf0v4fx09lhpqw9aeg1.jpg)  
+[![[../../00 internal files/Assets/3521a1594a96b5c0f71bd505509d933a_MD5.jpg|3521a1594a96b5c0f71bd505509d933a_MD5]]](https://sabr.box.com/shared/static/5hf0v4fx09lhpqw9aeg1.jpg)  
 **Figure 3** (click to enlarge)
 
 Table 2 presents empirical probabilities of victory in all head-to-head matchups between teams of all qualities for the entirety of major league history.9 Each cell in Table 2 lists the empirical probability of victory for a team with quality (i.e., full-season winning percentage) in the bin indicated by the heading of the corresponding row, when facing a team with quality in the bin indicated by the heading of the corresponding column.10 (Matchups that have never occurred in major league history—for instance, a.280 team facing a.720 opponent—are simply indicated by the absence of a number.) Note that because every head-to-head matchup yields one win and one loss, each above-diagonal element of Table 2 is equal to the complement of its corresponding below-diagonal element, and each on-diagonal element is identically.500.
 
-[![[/content/00 internal files/Assets/6d5bc55e83af2cd7347df463f3336bd4_MD5.jpg|6d5bc55e83af2cd7347df463f3336bd4_MD5]]](https://sabr.box.com/shared/static/vz3e42ub0p5zcf5m0oul.jpg)  
-**Table 2** (click to enlarge) ![[/content/00 internal files/Assets/98d5ab82367cf84733b4a4217f751d50_MD5.gif|98d5ab82367cf84733b4a4217f751d50_MD5]]  
+[![[../../00 internal files/Assets/6d5bc55e83af2cd7347df463f3336bd4_MD5.jpg|6d5bc55e83af2cd7347df463f3336bd4_MD5]]](https://sabr.box.com/shared/static/vz3e42ub0p5zcf5m0oul.jpg)  
+**Table 2** (click to enlarge) ![[../../00 internal files/Assets/98d5ab82367cf84733b4a4217f751d50_MD5.gif|98d5ab82367cf84733b4a4217f751d50_MD5]]  
   
 
 We can compare the predicted probabilities of victory in Table 1 to the empirical probabilities of victory in Table 2 to get a sense of the accuracy of the former table’s predictions (and thus the accuracy of the win-probability function P). For example, among all teams in major league history that ended the season with a winning percentage in the.600 bin (that is, between.590 and.610), the empirical probability of victory when facing an opponent with winning percentage in the.400 bin (that is, between.390 and.410) is observed to be.682. In comparison, the predicted probability of victory for a.600 team facing a.400 opponent is.691—a difference of less than 1% in absolute terms. Similarly, when a.600 team faces a.500 opponent (who thus represents a league-average team), its empirical probability of victory is seen to be.603—a very slight deviation from the theoretical value of.600. When a.600 team faces another.600 team, its empirical probability of victory is empirically.500 (a result that follows necessarily from the zero-sum nature of win-loss accounting), which is the same as the predicted value. Finally, when a.600 team faces a.700 opponent, its empirical win probability is.459. This is somewhat larger than the theoretical value of.391 indicated in Table 1; the larger deviation (compared to the others noted here) can be attributed to the relatively rare occurrence of such a matchup and the resulting small sample size. In particular, there have been 1359 decisive matchups between a.600 team and a.400 team, 1815 decisive matchups between a.600 team and a.500 team, and 846 decisive matchups between two.600 teams. In contrast, there have only been 185 decisive matchups between a.600 team and a.700 team. A larger deviation in the empirical probability is thus to be expected. Table 3 presents the number of decisive matchups in major league history between teams of different qualities—that is, the sample size for each of the empirical probabilities in Table 2. Note that Table 3 displays a fundamental symmetry: its above-diagonal elements are identical to the corresponding below-diagonal entries.
 
-[![[/content/00 internal files/Assets/e4334f6f91f512f62ec6e55fef7480b1_MD5.jpg|e4334f6f91f512f62ec6e55fef7480b1_MD5]]](https://sabr.box.com/shared/static/7ppbppi53lp13bjwodlo.jpg)  
-**Table 3** (click to enlarge) ![[/content/00 internal files/Assets/6d661809aea86907064e8a9ef80b7ab1_MD5.gif|6d661809aea86907064e8a9ef80b7ab1_MD5]]  
+[![[../../00 internal files/Assets/e4334f6f91f512f62ec6e55fef7480b1_MD5.jpg|e4334f6f91f512f62ec6e55fef7480b1_MD5]]](https://sabr.box.com/shared/static/7ppbppi53lp13bjwodlo.jpg)  
+**Table 3** (click to enlarge) ![[../../00 internal files/Assets/6d661809aea86907064e8a9ef80b7ab1_MD5.gif|6d661809aea86907064e8a9ef80b7ab1_MD5]]  
   
 
 The same theoretical trends that were apparent in Table 1 are also apparent in the empirical data of Table 2. As predicted, a team’s empirical probability of victory tends to decrease as its opponent’s winning percentage increases; similarly, an opponent with a fixed winning percentage is generally more likely to be defeated by a team with a higher winning percentage. As with Table 1, each above-diagonal element of Table 2 is equal to the complement of its corresponding below-diagonal element, and each populated on-diagonal element is identically equal to.500.
@@ -164,7 +164,7 @@ A cell-by-cell comparison of Table 1 and Table 2 demonstrates that there is, in 
 
 We can bring this qualitative, inspection-based assessment of the theoretical predictions and empirical observations onto firmer quantitative ground. In particular, we can apply a metric known as the Brier score11 to quantify the level of agreement between theory and observation. Originally developed to evaluate the accuracy of weather forecasts, the Brier score is more generally used to measure the accuracy or predictive power of a probabilistic assessment over numerous trials. It can be applied whenever probabilities are assigned to a set of mutually exclusive, collectively exhaustive discrete outcomes.12 We will rely on a formulation known as the Brier skill score,13 which essentially represents a comparison of the predictive power of a model to that of a naïve model that assumes that each outcome is equally likely—in this case, a trivial model specifying an equal (.500) probability of victory for each team in any matchup, regardless of the teams’ levels of quality.14 A Brier skill score of 1 indicates perfect predictive power, while a Brier skill score of 0 indicates predictive power limited to that of the naïve uniform-probability benchmark.15 The greatest possible Brier skill score would be achieved by a fully empirical win-probability function—that is, a function E that simply used the empirical probabilities of victory throughout major league history, as presented in Table 2, as a lookup table for its probability estimates.16 We can thus reference the success of the theoretical win-probability function P by comparing its Brier skill score S <sub>P</sub> to the greatest-possible Brier skill score S <sub>E</sub> that is achieved by the fully empirical function E. In particular, we will calculate an “efficiency ratio” R <sub>P</sub> for the win-probability function P:
 
-![[/content/00 internal files/Assets/759d15b282a69785c5c1268bc2e732d8_MD5.jpg|759d15b282a69785c5c1268bc2e732d8_MD5]]
+![[../../00 internal files/Assets/759d15b282a69785c5c1268bc2e732d8_MD5.jpg|759d15b282a69785c5c1268bc2e732d8_MD5]]
 
 This efficiency ratio provides an unambiguous, absolute measure of the accuracy of the win-probability function P. A ratio of 1 indicates a perfect match between theory and practice, and a value less than 1 indicates an imperfect match (with the degree of imperfection indicated by the deviation from unity).
 
@@ -212,27 +212,27 @@ We now consider a slight revision to the win-probability function P in an attemp
 
 As stated at the outset of this article, winning percentage is the best statistical indicator of team quality relative to the league in which a team plays. In addition to providing a measurement of team quality, however, winning percentage also provides information about the relative quality of the rest of the league. In particular, if Team A finishes its season with a winning percentage over.500, then we know that the rest of Team A’s league, taken as a whole, has finished the season with a winning percentage under.500. Conversely, if Team A ends the season with a sub-.500 winning percentage, this implies that the rest of the league has an ensemble winning percentage over.500. For an N-team league in which all teams play the same balanced schedule, we can express this relationship exactly: if Team A has a winning percentage of WP <sub>A</sub>, then the rest of Team A’s league must have a winning percentage of
 
-![[/content/00 internal files/Assets/ba5d7177ee873770622dc3a717f0e923_MD5.gif|ba5d7177ee873770622dc3a717f0e923_MD5]] ![[/content/00 internal files/Assets/bb7def7d20c772e1cab005532b6b5ed7_MD5.jpg|bb7def7d20c772e1cab005532b6b5ed7_MD5]]  
+![[../../00 internal files/Assets/ba5d7177ee873770622dc3a717f0e923_MD5.gif|ba5d7177ee873770622dc3a717f0e923_MD5]] ![[../../00 internal files/Assets/bb7def7d20c772e1cab005532b6b5ed7_MD5.jpg|bb7def7d20c772e1cab005532b6b5ed7_MD5]]  
   
 
 This has interesting implication: from the perspective of an above-.500 team, the league-average opponent is actually below.500, and from the perspective of a below-.500 team, the league-average opponent is actually above.500. An above-.500 team would thus seem to derive some extra benefit from playing its schedule against teams that are somewhat worse than average, while a below-.500 team would seem to compound its woes by playing teams that are somewhat better than average. This points directly to a flaw inherent in the win-probability function: P(WP <sub>A</sub>,WP <sub>~</sub> <sub>A</sub>) actually exceeds WP <sub>A</sub> for an above-.500 team and falls short of WP <sub>A</sub> for a sub-.500 team. Clearly this is an absurdity, since a team with winning percentage WP <sub>A</sub> should, by definition, be expected to post a winning percentage of exactly WP <sub>A</sub> in the context of its league.
 
 We can modify the form of the win-probability function by adjusting the values of its two arguments, WP <sub>A</sub> and WP <sub>B</sub>, to counteract this effect. In particular, if Team A and Team B are both members of the same N-team league, then we can adjust each team’s winning percentage as follows:
 
-![[/content/00 internal files/Assets/4ea53ed5b4623f928de68e2b7427337f_MD5.gif|4ea53ed5b4623f928de68e2b7427337f_MD5]]  
+![[../../00 internal files/Assets/4ea53ed5b4623f928de68e2b7427337f_MD5.gif|4ea53ed5b4623f928de68e2b7427337f_MD5]]  
   
-![[/content/00 internal files/Assets/a1b33dd751366afb2eb90547ce326649_MD5.jpg|a1b33dd751366afb2eb90547ce326649_MD5]]
+![[../../00 internal files/Assets/a1b33dd751366afb2eb90547ce326649_MD5.jpg|a1b33dd751366afb2eb90547ce326649_MD5]]
 
 This has the effect of adjusting a team’s winning percentage downward or upward by the same amount by which its opponents’ ensemble winning percentages exceeded or fell short of.500, respectively. We then take the revised win-probability function P’ to be
 
-![[/content/00 internal files/Assets/b43814d702ad0cf11beead9a39337f08_MD5.gif|b43814d702ad0cf11beead9a39337f08_MD5]] ![[/content/00 internal files/Assets/4ea736f97d7b074ae150d27a36fa2851_MD5.jpg|4ea736f97d7b074ae150d27a36fa2851_MD5]]
+![[../../00 internal files/Assets/b43814d702ad0cf11beead9a39337f08_MD5.gif|b43814d702ad0cf11beead9a39337f08_MD5]] ![[../../00 internal files/Assets/4ea736f97d7b074ae150d27a36fa2851_MD5.jpg|4ea736f97d7b074ae150d27a36fa2851_MD5]]
 
 This revised function represents an attempt to bring a team’s predicted win probability against a league-average opponent, rather than a league-average team, into agreement with its winning percentage.19
 
 Table 7 presents the probabilities of victory predicted by the revised win-probability function. Comparison to Table 1 (the probabilities of victory predicted by the original win-probability function) reveals that the revised function hedges its bets slightly. In particular, the revised win-probability function judges the outcome of any contest between teams of different qualities to be slightly less certain—that is, to have closer to even odds—than suggested by the original win-probability function.
 
-[![[/content/00 internal files/Assets/b2919d704307d48f30b7f95567185706_MD5.jpg|b2919d704307d48f30b7f95567185706_MD5]]](https://sabr.box.com/shared/static/cc172z6bvrgd5tww3nvz.jpg)  
-**Table 7** (click to enlarge) ![[/content/00 internal files/Assets/ec1933b2ce07a7a571b230c5e297c147_MD5.gif|ec1933b2ce07a7a571b230c5e297c147_MD5]]  
+[![[../../00 internal files/Assets/b2919d704307d48f30b7f95567185706_MD5.jpg|b2919d704307d48f30b7f95567185706_MD5]]](https://sabr.box.com/shared/static/cc172z6bvrgd5tww3nvz.jpg)  
+**Table 7** (click to enlarge) ![[../../00 internal files/Assets/ec1933b2ce07a7a571b230c5e297c147_MD5.gif|ec1933b2ce07a7a571b230c5e297c147_MD5]]  
   
 
 As with the original win-probability function, we can compare the predictions of the revised win-probability function with empirical results. Table 8 presents the Brier scores, Brier skill scores, and efficiency ratios for both the original and revised win-probability functions, as calculated for the entirety of major league history.20 The revised win-probability function is seen to attain a slightly higher efficiency ratio (98.32%) than the original win-probability function (97.90%). Although this is an absolute increase of only 0.42%, it represents a 20.2% reduction in the residual error when compared to the empirical upper bound—that is, a reduction of unmodeled empirical variation from 2.10% to 1.68%. As such, it represents a nontrivial improvement in model fidelity.
@@ -248,9 +248,9 @@ Table 9 presents results for the original and revised win-probability functions 
 
 **Table 9. Scoring metrics for the revised and original theoretical win-probability functions in different major league eras**
 
-![[/content/00 internal files/Assets/1d1b385f8d574aee51c5800e8f427306_MD5.gif|1d1b385f8d574aee51c5800e8f427306_MD5]]  
+![[../../00 internal files/Assets/1d1b385f8d574aee51c5800e8f427306_MD5.gif|1d1b385f8d574aee51c5800e8f427306_MD5]]  
   
-[![[/content/00 internal files/Assets/b1832d597fc089a6c97b99ad9b97b8b0_MD5.jpg|b1832d597fc089a6c97b99ad9b97b8b0_MD5]]](https://sabr.box.com/shared/static/upr8flkdxei36ps78f10.jpg)  
+[![[../../00 internal files/Assets/b1832d597fc089a6c97b99ad9b97b8b0_MD5.jpg|b1832d597fc089a6c97b99ad9b97b8b0_MD5]]](https://sabr.box.com/shared/static/upr8flkdxei36ps78f10.jpg)  
 **Table 9** (click to enlarge)
 
 **Conclusion**
