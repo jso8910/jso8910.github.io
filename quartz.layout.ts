@@ -39,6 +39,7 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.Explorer({
       title: "Articles",
+      filterFn: (a) => !a.slug?.includes("wiki")
       sortFn: (a, b) => {
         if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
           // If the displayName ends with "Part X)", sort by the number
@@ -62,6 +63,10 @@ export const defaultContentPageLayout: PageLayout = {
         }
       },
     }),
+    Component.Explorer({
+      title: "Wiki",
+      filterFn: (a) => a.slug?.includes("wiki")
+    }),
   ],
   right: [
     Component.Graph({
@@ -75,8 +80,8 @@ export const defaultContentPageLayout: PageLayout = {
         linkDistance: 30, // how long should the links be by default?
         fontSize: 0.6, // what size should the node labels be?
         opacityScale: 1, // how quickly do we fade out the labels when zooming out?
-        removeTags: [], // what tags to remove from the graph
-        showTags: false, // whether to show tags in the graph
+        removeTags: ["article"], // what tags to remove from the graph
+        showTags: true, // whether to show tags in the graph
         enableRadial: false, // whether to constrain the graph, similar to Obsidian
       },
       globalGraph: {
@@ -90,7 +95,7 @@ export const defaultContentPageLayout: PageLayout = {
         fontSize: 0.6,
         opacityScale: 1,
         removeTags: [], // what tags to remove from the graph
-        showTags: false, // whether to show tags in the graph
+        showTags: true, // whether to show tags in the graph
         enableRadial: true, // whether to constrain the graph, similar to Obsidian
       },
     }),
