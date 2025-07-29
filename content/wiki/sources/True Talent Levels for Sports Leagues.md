@@ -2,7 +2,7 @@
 title: True Talent Levels for Sports Leagues
 source: https://www.insidethebook.com/ee/index.php/site/comments/true_talent_levels_for_sports_leagues/#comments
 author:
-  - "[[../TangoTiger|TangoTiger]]"
+  - "[[/content/wiki/TangoTiger|TangoTiger]]"
 publishedDate: 2006-08-24
 created: 2025-07-29
 description: 
@@ -17,13 +17,13 @@ category: wiki/sources
 
 | Original Source                                                                                                                                    | Author         | Published  |
 | -------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ---------- |
-| [True Talent Levels for Sports Leagues](https://www.insidethebook.com/ee/index.php/site/comments/true_talent_levels_for_sports_leagues/#commentsl) | [[../TangoTiger|TangoTiger]] | 2006-08-24 |
+| [True Talent Levels for Sports Leagues](https://www.insidethebook.com/ee/index.php/site/comments/true_talent_levels_for_sports_leagues/#commentsl) | [[/content/wiki/TangoTiger|TangoTiger]] | 2006-08-24 |
 
 ---
 
 Key Takeaways (my own personal summary):
 1. Scroll down to the highlighted section for the most relevant part
-2. Essentially, it uses empirical data to calculate the variance of winning in baseball, then subtracts the binomial distribution variation (which would be [[../Random Variation|Random Variation]]) to find the standard deviation of true talent for win records in baseball
+2. Essentially, it uses empirical data to calculate the variance of winning in baseball, then subtracts the binomial distribution variation (which would be [[/content/wiki/Random Variation|Random Variation]]) to find the standard deviation of true talent for win records in baseball
 
 ---
 ## True Talent Levels for Sports Leagues

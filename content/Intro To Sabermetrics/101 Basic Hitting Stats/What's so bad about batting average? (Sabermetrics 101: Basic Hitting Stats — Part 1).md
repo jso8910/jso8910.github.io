@@ -50,10 +50,10 @@ To put it in terms of a (crude) formula, $R^2 = \dfrac{\text{signal}}{\text{sign
 > 
 > RSS represents the error in the regression function, so if you take $\dfrac{\text{RSS}}{\text{TSS}}$ that gives you the proportion of the variance in the y-value which is *not* explained by the model, so taking the complement of this fraction (subtracting it from 1) gives you the proportion of the variance which *is* explained by the model. The beauty of this is that it works even for non-linear models!
 # Analysis of OBP
-![[../../00 internal files/Assets/avg_vs_runs.png|avg_vs_runs.png]]
+![[/content/00 internal files/Assets/avg_vs_runs.png|avg_vs_runs.png]]
 **Figure 1. Team AVG vs Runs Scored Per Team Game, 1990-2024, excl. 1994, 2020**
 
-![[../../00 internal files/Assets/obp_vs_runs.png|obp_vs_runs.png]]
+![[/content/00 internal files/Assets/obp_vs_runs.png|obp_vs_runs.png]]
 **Figure 2. Team OBP vs Runs Scored, 1990-2024, excl. 1994, 2020**
 
 As can be seen, the correlation between OBP and runs scored (excluding the two shortened seasons, which have lower sample sizes and thus are more likely to produce outliers) is much stronger than that of AVG and runs scored, with an R-squared of 0.739 in Figure 1 vs an R-squared of 0.543 in Figure 2. This means that OBP is a stronger stat which more clearly correlates with runs scored per game by a team. As discussed above, this is simply because it accounts for more outcomes, rather than just the singular outcome of “hit” or “no hit”. This is why we prefer to use stats like OBP rather than batting average: because OBP better correlates with runs scored.

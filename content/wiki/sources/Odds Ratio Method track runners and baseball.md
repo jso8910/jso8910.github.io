@@ -2,7 +2,7 @@
 title: Odds Ratio Method track runners and baseball
 source: https://www.insidethebook.com/ee/index.php/site/comments/odds_ratio_method_track_runners_and_baseball/
 author:
-  - "[[../TangoTiger|TangoTiger]]"
+  - "[[/content/wiki/TangoTiger|TangoTiger]]"
 publishedDate: 2010-08-03
 created: 2025-07-29
 description: 
@@ -18,7 +18,7 @@ category: wiki/sources
 
 | Original Source                                                                                                                                        | Author         | Published  |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------- | ---------- |
-| [Odds Ratio Method track runners and baseball](https://www.insidethebook.com/ee/index.php/site/comments/odds_ratio_method_track_runners_and_baseball/) | [[../TangoTiger|TangoTiger]] | 2010-08-03 |
+| [Odds Ratio Method track runners and baseball](https://www.insidethebook.com/ee/index.php/site/comments/odds_ratio_method_track_runners_and_baseball/) | [[/content/wiki/TangoTiger|TangoTiger]] | 2010-08-03 |
 
 ---
 ## Odds Ratio Method: track runners and baseball
@@ -240,8 +240,8 @@ Jan 04 19:45
 
 ---
 
-[![[../../00 internal files/Assets/9dff3c7151a4818291a3a3a182380dd6_MD5.png|9dff3c7151a4818291a3a3a182380dd6_MD5]]](http://xkcd.com/904/)
+[![[/content/00 internal files/Assets/9dff3c7151a4818291a3a3a182380dd6_MD5.png|9dff3c7151a4818291a3a3a182380dd6_MD5]]](http://xkcd.com/904/)
 
 ---
 
-[![[../../00 internal files/Assets/46b3aae1722c62c3bbb513ca1e5c4ea0_MD5.jpg|46b3aae1722c62c3bbb513ca1e5c4ea0_MD5]]](http://www.insidethebook.com/ee/index.php/site/comments/launch_angle_speed_off_the_bat_trajectory/) [![](http://www.sonsofsamhorn.net/wiki/images/4/47/Guide2.gif)](http://fastballs.wordpress.com/2010/04/18/a-pitchfx-primer/)
+[![[/content/00 internal files/Assets/46b3aae1722c62c3bbb513ca1e5c4ea0_MD5.jpg|46b3aae1722c62c3bbb513ca1e5c4ea0_MD5]]](http://www.insidethebook.com/ee/index.php/site/comments/launch_angle_speed_off_the_bat_trajectory/) [![](http://www.sonsofsamhorn.net/wiki/images/4/47/Guide2.gif)](http://fastballs.wordpress.com/2010/04/18/a-pitchfx-primer/)
