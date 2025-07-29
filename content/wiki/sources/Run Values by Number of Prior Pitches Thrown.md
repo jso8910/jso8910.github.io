@@ -2,7 +2,7 @@
 title: Run Values by Number of Prior Pitches Thrown
 source: http://tangotiger.com/index.php/site/article/run-values-by-number-of-prior-pitches-thrown
 author:
-  - "[[/content/wiki/TangoTiger|TangoTiger]]"
+  - "[[../TangoTiger|TangoTiger]]"
 publishedDate: 2025-07-27
 created: 2025-07-27
 description: 
@@ -17,10 +17,10 @@ category: wiki/sources
 
 | Original Source                                                                                                                           | Author         | Published  |
 | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ---------- |
-| [Run Values by Number of Prior Pitches Thrown](http://tangotiger.com/index.php/site/article/run-values-by-number-of-prior-pitches-thrown) | [[/content/wiki/TangoTiger|TangoTiger]] | 2025-07-27 |
+| [Run Values by Number of Prior Pitches Thrown](http://tangotiger.com/index.php/site/article/run-values-by-number-of-prior-pitches-thrown) | [[../TangoTiger|TangoTiger]] | 2025-07-27 |
 
 
-At the very end, this includes a cool thing on [[/content/wiki/True Talent|True Talent]]!
+At the very end, this includes a cool thing on [[../True Talent|True Talent]]!
 
 ---
 ## Run Values by Number of Prior Pitches Thrown
@@ -31,7 +31,7 @@ I'm going to show you the run production, split by how many prior pitches a star
 
 The production metric I am using is Run Value (per 100 pitches). Do I need to explain Run Value? Bill James once said: if it seems like you are walking in to the middle of a conversation, you probably are, that we can't continually restart the conversation for the benefit of all the newcomers. For the most part I agree. Sometimes I do restart the conversation to the beginning, but not today. So, I'll leave it to others to bring along the newcomers.
 
-![[/content/00 internal files/Assets/aa801994a30c76ede871cbfb604bc307_MD5.png|aa801994a30c76ede871cbfb604bc307_MD5]]
+![[../../00 internal files/Assets/aa801994a30c76ede871cbfb604bc307_MD5.png|aa801994a30c76ede871cbfb604bc307_MD5]]
 
 I am grouping the data in groups of 4 pitches. So, that first point, at 0 Prior Pitches Thrown, really means 0-3 Prior Pitches Thrown. (click to embiggen)
 
@@ -39,7 +39,7 @@ Now, if you didn't know anything about baseball, you'd be really confused about 
 
 Well, you do know something about baseball. So, let me remove this Orange Overall production line, and instead show you a Blue Batter line and the Purple Pitcher line. The Batter Line represents that batter's seasonal average, while the Pitcher Line is that pitcher's seasonal average.
 
-![[/content/00 internal files/Assets/c34319b8ffde7457cfe4850b7977a069_MD5.png|c34319b8ffde7457cfe4850b7977a069_MD5]]
+![[../../00 internal files/Assets/c34319b8ffde7457cfe4850b7977a069_MD5.png|c34319b8ffde7457cfe4850b7977a069_MD5]]
 
 Naturally, for pitches 0 through 20, that's going to be predominantly the top of the order. That's why you see the peak there: we have good batters getting those pitches. And since the batting order cycles, you see a cyclical chart.
 
@@ -47,17 +47,17 @@ In addition, we see that up to about Pitch number 70, the Pitcher line is pretty
 
 If we add the values of the Blue Batter and the Purple Pitcher, we end up with a Green line, which is our Expected production line. This Expected Value is what we expect based solely on the talent of the Batter and Pitcher involved at that particular pitch count.
 
-![[/content/00 internal files/Assets/e82e9ca03aa284dfb4de23da2ad5e1c4_MD5.png|e82e9ca03aa284dfb4de23da2ad5e1c4_MD5]]
+![[../../00 internal files/Assets/e82e9ca03aa284dfb4de23da2ad5e1c4_MD5.png|e82e9ca03aa284dfb4de23da2ad5e1c4_MD5]]
 
 What we then do is compare the actual production (that Orange line we started with) to this expected production (this new Green line). This is how that looks.
 
-![[/content/00 internal files/Assets/ecde16f19ba82a573a69d1b9e135a902_MD5.png|ecde16f19ba82a573a69d1b9e135a902_MD5]]
+![[../../00 internal files/Assets/ecde16f19ba82a573a69d1b9e135a902_MD5.png|ecde16f19ba82a573a69d1b9e135a902_MD5]]
 
 Next, we subtract the actual production by the expected production. This difference gives us the actual production, adjusted for expectation.
 
 Now, including the difference of the two lines (and I'll add in a range around that to account for Random Variation), and this difference will show us the impact of the Pitch Count to run production. I needed the range for Random Variation because the number of prior-pitches thrown gets disproportionately less as the pitch count increases. The range you see there is one standard deviation.
 
-![[/content/00 internal files/Assets/4144779e13e47b0e4ae0943717771053_MD5.png|4144779e13e47b0e4ae0943717771053_MD5]]
+![[../../00 internal files/Assets/4144779e13e47b0e4ae0943717771053_MD5.png|4144779e13e47b0e4ae0943717771053_MD5]]
 
 As you can see, the more pitches thrown, the higher the run production. Up to a point anyway. That point is 92, meaning 92-95 prior pitches thrown. After that, run production actually goes down. Or, given the Random Variation, flatlines for a while. But once you get to 108 pitches thrown, run production goes quite low. How is this possible? Well, we do have Random Variation to contend with. But even that won't explain too much of what we are seeing.
 

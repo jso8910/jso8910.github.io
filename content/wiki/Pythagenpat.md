@@ -10,7 +10,7 @@ startedDate: "[[2025-07-29]]"
 tags:
   - wiki_equation
 ---
-A replacement for the static exponent in the [[/content/wiki/Pythagorean Record|Pythagorean Record]] formula.
+A replacement for the static exponent in the [[./Pythagorean Record|Pythagorean Record]] formula.
 
 >[!Info] Pythagenpat
 >$$
