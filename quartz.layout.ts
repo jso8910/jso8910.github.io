@@ -39,7 +39,7 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.Explorer({
       title: "Articles",
-      filterFn: (a) => !a.slug?.includes("wiki")
+      filterFn: (a) => !a.slug?.includes("wiki/"),
       sortFn: (a, b) => {
         if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
           // If the displayName ends with "Part X)", sort by the number
@@ -65,7 +65,7 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.Explorer({
       title: "Wiki",
-      filterFn: (a) => a.slug?.includes("wiki")
+      filterFn: (a) => a.slug?.includes("wiki/")
     }),
   ],
   right: [
