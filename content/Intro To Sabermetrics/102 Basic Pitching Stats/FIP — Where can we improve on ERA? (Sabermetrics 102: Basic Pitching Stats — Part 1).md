@@ -13,7 +13,7 @@ publishDate: 2025-06-26
 modified: 2025-06-26
 startedDate: "[[2025-06-01]]"
 custom-tags:
-  - "[[Baseball|Baseball]]"
+  - "[[01 Tags/Baseball|01 Tags/Baseball]]"
 ---
 # Introduction — A History of Pitching Stats
 Here is where Sabermetrics gets controversial: pitching stats. How to measure a pitcher's impact on the game is something which is incredibly difficult. A hitter has a very isolated impact—they are the one who hits the ball and no one else on their team assists in that—which makes a hitter's impact on their team's run scoring quite easy to measure. However, this same clear delineation does not exist with pitchers. A pitcher is told which pitch to throw by the catcher, then the pitcher throws that pitch, which results in the batter hitting the ball (which the batter has some degree of control over obviously), and then fielders on the pitcher's team field the ball. Isolating just the pitcher's impact on the game is something which is incredibly difficult.
