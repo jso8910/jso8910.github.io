@@ -2,7 +2,7 @@
 title: Correlating player offensive stats against RE24 — TangoTiger on Twitter
 source: https://x.com/tangotiger/status/1947526489341034898
 author:
-  - "[[../TangoTiger|TangoTiger]]"
+  - "[[/content/wiki/TangoTiger|TangoTiger]]"
 publishedDate: 2025-07-21
 created: 2025-07-22
 description: 
@@ -17,7 +17,7 @@ category: wiki/sources
 
 | Original Source                                                                                                                | Author         | Published  |
 | ------------------------------------------------------------------------------------------------------------------------------ | -------------- | ---------- |
-| [Correlating player offensive stats against RE24 — TangoTiger on Twitter](https://x.com/tangotiger/status/1947526489341034898) | [[../TangoTiger|TangoTiger]] | 2025-07-21 |
+| [Correlating player offensive stats against RE24 — TangoTiger on Twitter](https://x.com/tangotiger/status/1947526489341034898) | [[/content/wiki/TangoTiger|TangoTiger]] | 2025-07-21 |
 
 ---
 **Tangotiger** @tangotiger [2025-07-22](https://x.com/tangotiger/status/1947525355419435190)
