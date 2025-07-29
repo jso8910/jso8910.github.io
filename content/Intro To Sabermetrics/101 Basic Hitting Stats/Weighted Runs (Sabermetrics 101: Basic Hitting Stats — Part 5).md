@@ -8,7 +8,7 @@ tags:
   - article
 publish: true
 share: true
-Section: "101 Basic Hitting Stats"
+Section: "[[../../../101 Basic Hitting Stats|Basic Hitting Stats]]"
 publishDate: 2025-05-22
 modified: 2025-05-22
 startedDate: "[[2025-05-07]]"
@@ -102,4 +102,4 @@ I think that the interesting thing here would just be to look at the percentiles
 
 The first interesting thing here is that this gives us our first opportunity to quantify just how much better than league average the median qualified player is: about 10 percent! And this should just give you an idea of what is good and what is bad. But also, in general, wRC+ is very easy to interpret because the more above 100 the more good you are, and the more below 100 the more bad you are.
 
-This is likely the final article in the 101 Basic Hitting Stats section of this Sabermetrics tutorial series, though I'll be publishing an additional article (an addendum of sorts) next week where I talk about some of the math behind OPS+ and wRC+. It's just something I've already written that I'm polishing for this blog. Optional to read if you just want to get information as efficiently as possible, but, in my opinion, very interesting. Then, I'll get started on talking about 102 Basic Pitching Stats (which may or may not take yet another week off)!
+This is likely the final article in the [[../../../101 Basic Hitting Stats|Basic Hitting Stats]] section of this Sabermetrics tutorial series, though I'll be publishing an additional article (an addendum of sorts) next week where I talk about some of the math behind OPS+ and wRC+. It's just something I've already written that I'm polishing for this blog. Optional to read if you just want to get information as efficiently as possible, but, in my opinion, very interesting. Then, I'll get started on talking about [[../../../102 Basic Pitching Stats|Basic Pitching Stats]] (which may or may not take yet another week off)!
