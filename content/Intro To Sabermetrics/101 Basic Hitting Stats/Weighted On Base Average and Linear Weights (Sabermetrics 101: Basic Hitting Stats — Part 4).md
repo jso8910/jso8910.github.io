@@ -12,7 +12,7 @@ Section: "[[101 Basic Hitting Stats]]"
 publishDate: 2025-05-08
 modified: 2025-05-08
 startedDate: "[[2025-05-05]]"
-custom-tags: "[[Baseball]]"
+custom-tags: "[[01 Tags/Baseball]]"
 ---
 Our next step on our Sabermetric journey takes us through wOBA. It is simultaneously one of the most and least well known advanced stats in the sport of baseball. Most people who are big fans of baseball have probably at least *heard of* [[Weighted On Base Average and Linear Weights (Sabermetrics 101: Basic Hitting Stats — Part 4)|wOBA]] or its child stat, wRC+, but what actually is it? I'm not going to waste any time here, I'll just show you its formula for the year 2025:
 
