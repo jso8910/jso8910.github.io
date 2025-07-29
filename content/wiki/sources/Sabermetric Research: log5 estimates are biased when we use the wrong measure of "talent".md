@@ -22,7 +22,7 @@ category: wiki/sources
 ---
 
 Key Takeaways (my own personal summary:
-1. There is a bias in the [[../Log5|Log5]] formula to regress teams towards the mean unnecessarily
+1. There is a bias in the Log5 formula to regress teams towards the mean unnecessarily
 2. This amount is minimized when the spread of talent in a league is minimized (pretty simple to see why—the function is defined as outputting the exact true talent of team A when team B's talent = 0.5, so the more teams that have a talent close to 0.5, the more accurate the formula will be).
 
 ---
