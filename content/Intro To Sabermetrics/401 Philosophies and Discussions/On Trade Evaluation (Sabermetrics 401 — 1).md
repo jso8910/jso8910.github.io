@@ -8,12 +8,12 @@ tags:
   - sabermetrics-401
 publish: true
 share: true
-Section: "[[Sabermetrics]]"
+Section: "[[401 Philosophies and Discussions]]"
 publishDate: 2025-06-16
 modified: 2025-06-16
 startedDate: "[[2025-06-16]]"
 custom-tags:
-  - "[[Baseball|Baseball]]"
+  - "[[01 Tags/Baseball|01 Tags/Baseball]]"
 ---
 This article going into the last section (meant to be an ongoing "forever" series) of my blog before I start the second section is a bit weird, but it's what I'm doing. So this is the first article that isn't specifically about teaching, but more general discussions about Sabermetrics.
 

@@ -13,7 +13,7 @@ publishDate: 2025-05-22
 modified: 2025-05-22
 startedDate: "[[2025-05-07]]"
 custom-tags:
-  - "[[Baseball|Baseball]]"
+  - "[[01 Tags/Baseball|01 Tags/Baseball]]"
 ---
 Note: Sorry about this article taking extra long, my exams got more busy in the last week and this article has quite a bit of content, so it took 2 weeks between articles instead of 1.
 

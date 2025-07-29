@@ -12,7 +12,7 @@ Section: "[[101 Basic Hitting Stats]]"
 publishDate: 2025-04-17
 modified: 2025-04-17
 startedDate: "[[2025-03-20]]"
-custom-tags: "[[Baseball]]"
+custom-tags: "[[01 Tags/Baseball]]"
 ---
 ##### If it ain't broke...
 
