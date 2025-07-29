@@ -14,7 +14,7 @@ share: true
 startedDate: "[[2025-05-03]]"
 custom-tags:
   - "[[Writing Things I'm Proud Of|Writing Things I'm Proud Of]]"
-  - "[[Baseball|Baseball]]"
+  - "[[01 Tags/Baseball|01 Tags/Baseball]]"
 publishDate: 2025-05-30
 modified: 2025-05-30
 ---
