@@ -31,7 +31,7 @@ I'm going to show you the run production, split by how many prior pitches a star
 
 The production metric I am using is Run Value (per 100 pitches). Do I need to explain Run Value? Bill James once said: if it seems like you are walking in to the middle of a conversation, you probably are, that we can't continually restart the conversation for the benefit of all the newcomers. For the most part I agree. Sometimes I do restart the conversation to the beginning, but not today. So, I'll leave it to others to bring along the newcomers.
 
-![[../../00 internal files/Assets/aa801994a30c76ede871cbfb604bc307_MD5.png|aa801994a30c76ede871cbfb604bc307_MD5]]
+![[../../00 internal files/Assets/aa801994a30c76ede871cbfb604bc307_MD.png|aa801994a30c76ede871cbfb604bc307_MD.png]]
 
 I am grouping the data in groups of 4 pitches. So, that first point, at 0 Prior Pitches Thrown, really means 0-3 Prior Pitches Thrown. (click to embiggen)
 
